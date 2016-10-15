@@ -30,7 +30,7 @@ class App extends Component {
       <div className="main-app-container">
         <Header personalInfo={personalInfo} />
         <Statistics benchmark={benchmark} />
-        <Introduction/>
+        <Introduction personalInfo={personalInfo}/>
         <div className="main-app-nav">Selected Projects</div>
         {/* notice that we then pass those unpacked props into the Counter component */}
           {projectEntries}
