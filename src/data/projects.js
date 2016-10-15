@@ -1,7 +1,7 @@
 const projectsData = {
    data: [
       {
-         desktop_image: 'http://i.imgur.com/rqQ8QeY.jpg',
+         desktop_image: 'http://i.imgur.com/ruYOFwT.gif',
          mobile_image: 'http://i.imgur.com/JuEGyoT.jpg',
          title: 'Melody Map',
          date: '2016',
@@ -29,28 +29,18 @@ const projectsData = {
          role: null,
          tech_stack: ['React.js', 'socket.io', 'Bootstrap', 'Node.js', 'express']
       }, {
-         desktop_image: 'http://wallup.net/wp-content/uploads/2015/12/240881-waterfall-forest-colorful-nature-Thailand-trees-landscape-pink-turquoise-white-tropical-river-pond-leaves-736x459.jpg',
-         mobile_image: 'http://2.bp.blogspot.com/_o0sizlWlquE/SU_4cOXI3zI/AAAAAAAAAHo/aLUJ-5Oq_yI/s400/Color_Chart.jpg',
-         title: 'Toy Problems',
-         date: '2016',
-         github_url: 'https://github.com/ChrisWiles/toyProblems',
-         project_url: 'https://github.com/ChrisWiles/toyProblems',
-         background: 'My personal solutions to programming challenges I come across.',
-         role: null,
-         tech_stack: ['JavaScript']
-      }, {
-         desktop_image: 'http://wallup.net/wp-content/uploads/2015/12/240881-waterfall-forest-colorful-nature-Thailand-trees-landscape-pink-turquoise-white-tropical-river-pond-leaves-736x459.jpg',
-         mobile_image: 'http://2.bp.blogspot.com/_o0sizlWlquE/SU_4cOXI3zI/AAAAAAAAAHo/aLUJ-5Oq_yI/s400/Color_Chart.jpg',
+         desktop_image: 'http://i.imgur.com/Hn2l7h7.gif',
+         mobile_image: '',
          title: 'Game of Life',
          date: '2015',
          github_url: 'https://github.com/ChrisWiles/Game-of-Life-canvas',
          project_url: 'http://htmlpreview.github.io/?https://github.com/ChrisWiles/Game-of-Life-canvas/blob/master/index.html',
          background: 'The Game of Life, also known simply as Life, is a cellular automaton devised by the British mathematician John Horton Conway in 1970. Any live cell with fewer than two live neighbors dies, as if caused by under-population. Any live cell with two or three live neighbors lives on to the next generation. Any live cell with more than three live neighbors dies, as if by over-population. Any dead cell with exactly three live neighbors becomes a live cell, as if by reproduction.',
          role: null,
-         tech_stack: ['HTML Canvas', 'jQuery']
+         tech_stack: ['HTML-Canvas', 'jQuery']
       }, {
-         desktop_image: 'http://wallup.net/wp-content/uploads/2015/12/240881-waterfall-forest-colorful-nature-Thailand-trees-landscape-pink-turquoise-white-tropical-river-pond-leaves-736x459.jpg',
-         mobile_image: 'http://2.bp.blogspot.com/_o0sizlWlquE/SU_4cOXI3zI/AAAAAAAAAHo/aLUJ-5Oq_yI/s400/Color_Chart.jpg',
+         desktop_image: 'http://i.imgur.com/KfDqw3v.gif',
+         mobile_image: '',
          title: 'Character Frequency',
          date: '2016',
          github_url: 'https://github.com/ChrisWiles/CharacterFrequency',
@@ -64,6 +54,16 @@ const projectsData = {
             'express',
             'Bootstrap'
          ]
+      }, {
+         desktop_image: 'http://i.imgur.com/e8aGCwQ.jpg',
+         mobile_image: '',
+         title: 'Toy Problems',
+         date: '2016',
+         github_url: 'https://github.com/ChrisWiles/toyProblems',
+         project_url: 'https://github.com/ChrisWiles/toyProblems',
+         background: 'My personal solutions to programming challenges I come across.',
+         role: null,
+         tech_stack: ['JavaScript']
       }
    ]
 }

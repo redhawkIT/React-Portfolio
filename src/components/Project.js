@@ -7,6 +7,19 @@ export default class Project extends Component {
     super(props, context)
   }
 
+  renderProjectRole(role) {
+    if(role) {
+      return (
+        <div>
+          <h3>Role</h3>
+          <div>{role}</div>
+        </div>
+      )
+    } else {
+      return null
+    }
+  }
+
   render() {
     const { project } = this.props
     const techStackItems = project.tech_stack.map((tech, index) => {
@@ -31,8 +44,7 @@ export default class Project extends Component {
           <div>{project.date}</div>
           <h3>Background</h3>
           <div>{project.background}</div>
-          <h3>Role</h3>
-          <div>{project.role}</div>
+          {this.renderProjectRole(project.role)}
           <h3>Tech Stack</h3>
           <div className="tech-icon-container">{techStackItems}</div>
         </div>
