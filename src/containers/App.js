@@ -29,9 +29,9 @@ class App extends Component {
     return (
       <div className="main-app-container">
         <Header personalInfo={personalInfo} />
-        <Statistics benchmark={benchmark} />
+        {/* <Statistics benchmark={benchmark} /> */}
         <Introduction personalInfo={personalInfo}/>
-        <div className="main-app-nav">Selected Projects</div>
+        {/* <div className="main-app-nav">Selected Projects</div> */}
         {/* notice that we then pass those unpacked props into the Counter component */}
           {projectEntries}
         <Footer personalInfo={personalInfo} />
