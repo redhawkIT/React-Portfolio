@@ -55,7 +55,7 @@ const projectsData = {
             'Bootstrap'
          ]
       }, {
-         desktop_image: '',
+         desktop_image: 'http://i.imgur.com/mOtWsT8.gif',
          mobile_image: '',
          title: 'Simon Says',
          date: '2015',
@@ -65,7 +65,7 @@ const projectsData = {
          role: null,
          tech_stack: ['jQuery', 'Bootstrap']
       }, {
-         desktop_image: '',
+         desktop_image: 'http://i.imgur.com/xxZ2E29.gif',
          mobile_image: '',
          title: 'Snake',
          date: '2015',
