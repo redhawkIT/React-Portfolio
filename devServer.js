@@ -5,6 +5,7 @@ const config = require('./webpack.config.dev')
 
 const app = express()
 const compiler = webpack(config)
+const port = process.env.PORT || 3000
 
 app.use(require('webpack-dev-middleware')(compiler, {
   noInfo: true,
@@ -18,6 +19,6 @@ app.get('*', (req, res) => {
 })
 
 
-app.listen(process.env.PORT || 3000)
+app.listen(port)
 
-console.log('Listening at http://localhost:3000')
+console.log(`Listening at http://localhost:${port}`)
