@@ -23,7 +23,7 @@ $statistics-background-color: $color-snow;
 $statistics-color: $accent-black;
 
 body {
-  background: $main-bg-color;    
+  background: $main-bg-color;
   color: $accent-black;
   display: flex;
   justify-content: center;
@@ -35,17 +35,27 @@ body {
   }
 }
 
+
 h2 {
   @media only screen and (max-device-width: 600px) {
     font-size: 5rem;
-  } 
+  }
 }
 
+img {
+    float: left;
+    margin: 5px 50px;
+}
+
+.bio {
+  font-size: 24px;
+  display: inline-block;
+}
 
 h3 {
   @media only screen and (max-device-width: 600px) {
     font-size: 4rem;
-  } 
+  }
 }
 
 .main-app-container {
@@ -275,7 +285,7 @@ ul.nav{
   background-color: $statistics-background-color;
   color: $statistics-color;
   width: 80vw;
-  padding: 1vh 1vw 1vh 1vw; 
+  padding: 1vh 1vw 1vh 1vw;
   margin-bottom: 2em;
 }
 
@@ -288,5 +298,5 @@ ul.nav{
   line-height: normal;
   @media only screen and (max-device-width: 600px) {
     font-size: 3rem;
-  } 
+  }
 }
