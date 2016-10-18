@@ -37,7 +37,7 @@ const projectsData = {
          project_url: 'http://htmlpreview.github.io/?https://github.com/ChrisWiles/Game-of-Life-canvas/blob/master/index.html',
          background: 'The Game of Life, also known simply as Life, is a cellular automaton devised by the British mathematician John Horton Conway in 1970. Any live cell with fewer than two live neighbors dies, as if caused by under-population. Any live cell with two or three live neighbors lives on to the next generation. Any live cell with more than three live neighbors dies, as if by over-population. Any dead cell with exactly three live neighbors becomes a live cell, as if by reproduction.',
          role: null,
-         tech_stack: ['HTML-Canvas', 'jQuery']
+         tech_stack: ['HTML5-Canvas', 'jQuery']
       }, {
          desktop_image: 'http://i.imgur.com/KfDqw3v.gif',
          mobile_image: '',
@@ -54,6 +54,26 @@ const projectsData = {
             'express',
             'Bootstrap'
          ]
+      }, {
+         desktop_image: '',
+         mobile_image: '',
+         title: 'Simon Says',
+         date: '2015',
+         github_url: 'https://github.com/ChrisWiles/Simon-Says',
+         project_url: 'http://htmlpreview.github.io/?https://github.com/ChrisWiles/Simon-Says/blob/master/index.html',
+         background: 'Simon Says clone',
+         role: null,
+         tech_stack: ['jQuery', 'Bootstrap']
+      }, {
+         desktop_image: '',
+         mobile_image: '',
+         title: 'Snake',
+         date: '2015',
+         github_url: 'https://github.com/ChrisWiles/snake-game',
+         project_url: 'http://goo.gl/5hp8X5',
+         background: 'Snake clone',
+         role: null,
+         tech_stack: ['jQuery', 'HTML5-Canvas']
       }, {
          desktop_image: 'http://i.imgur.com/e8aGCwQ.jpg',
          mobile_image: '',
