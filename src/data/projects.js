@@ -29,6 +29,15 @@ const projectsData = {
          role: null,
          tech_stack: ['React.js', 'socket.io', 'Bootstrap', 'Node.js', 'express']
       }, {
+         desktop_image: 'http://i.imgur.com/141jgXn.gifv',
+         mobile_image: '',
+         title: 'N-Puzzle',
+         date: '2016',
+         github_url: 'https://github.com/ChrisWiles/N-Puzzle',
+         project_url: 'https://github.com/ChrisWiles/N-Puzzle',
+         background: 'A sliding puzzle that consists of a frame of numbered square tiles in random order with one tile missing. The n-puzzle is a classical problem for modeling algorithms. ',
+         tech_stack: ['React.js', 'Material-UI']
+      }, {
          desktop_image: 'http://i.imgur.com/Hn2l7h7.gif',
          mobile_image: '',
          title: 'Game of Life',
