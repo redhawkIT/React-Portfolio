@@ -18,8 +18,8 @@ const projectsData = {
             'Node.js',
             'express'
          ]
-      },  {
-         desktop_image: 'http://i.imgur.com/Hn2l7h7.gif',
+      }, {
+         desktop_image: 'http://i.imgur.com/DqvDcp9.gif',
          mobile_image: '',
          title: 'N-Puzzle',
          date: '2016',
@@ -27,6 +27,16 @@ const projectsData = {
          project_url: 'https://github.com/ChrisWiles/N-Puzzle',
          background: 'A sliding puzzle that consists of a frame of numbered square tiles in random order with one tile missing. The n-puzzle is a classical problem for modeling algorithms. ',
          tech_stack: ['React.js', 'Material-UI']
+      }, {
+         desktop_image: 'http://i.imgur.com/ByQkwVO.jpg',
+         mobile_image: 'http://i.imgur.com/aAw02Us.jpg',
+         title: 'Gomoku',
+         date: '2016',
+         github_url: 'https://github.com/ChrisWiles/GomokuReact',
+         project_url: 'https://gomoku-atx.herokuapp.com/',
+         background: 'Gomoku is an abstract strategy board game. Also called Gobang or Five in a Row, it is traditionally played with Go pieces (black and white stones) on a go board with 19x19 (15x15) intersections. The winner is the first player to get an unbroken row of five stones horizontally, vertically, or diagonally.',
+         role: null,
+         tech_stack: ['React.js', 'socket.io', 'Bootstrap', 'Node.js', 'express']
       }, {
          desktop_image: 'http://i.imgur.com/Hn2l7h7.gif',
          mobile_image: '',
@@ -38,16 +48,6 @@ const projectsData = {
          role: null,
          tech_stack: ['HTML5-Canvas', 'jQuery']
       }, {
-         desktop_image: 'http://i.imgur.com/ByQkwVO.jpg',
-         mobile_image: 'http://i.imgur.com/aAw02Us.jpg',
-         title: 'Gomoku',
-         date: '2016',
-         github_url: 'https://github.com/ChrisWiles/GomokuReact',
-         project_url: 'https://gomoku-atx.herokuapp.com/',
-         background: 'Gomoku is an abstract strategy board game. Also called Gobang or Five in a Row, it is traditionally played with Go pieces (black and white stones) on a go board with 19x19 (15x15) intersections. The winner is the first player to get an unbroken row of five stones horizontally, vertically, or diagonally.',
-         role: null,
-         tech_stack: ['React.js', 'socket.io', 'Bootstrap', 'Node.js', 'express']
-      },{
          desktop_image: 'http://i.imgur.com/KfDqw3v.gif',
          mobile_image: '',
          title: 'Character Frequency',
