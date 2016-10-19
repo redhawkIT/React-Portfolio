@@ -18,8 +18,8 @@ const projectsData = {
             'Node.js',
             'express'
          ]
-      }, {
-         desktop_image: 'http://i.imgur.com/141jgXn.gif',
+      },  {
+         desktop_image: 'http://i.imgur.com/Hn2l7h7.gif',
          mobile_image: '',
          title: 'N-Puzzle',
          date: '2016',
@@ -47,7 +47,7 @@ const projectsData = {
          background: 'Gomoku is an abstract strategy board game. Also called Gobang or Five in a Row, it is traditionally played with Go pieces (black and white stones) on a go board with 19x19 (15x15) intersections. The winner is the first player to get an unbroken row of five stones horizontally, vertically, or diagonally.',
          role: null,
          tech_stack: ['React.js', 'socket.io', 'Bootstrap', 'Node.js', 'express']
-      }, {
+      },{
          desktop_image: 'http://i.imgur.com/KfDqw3v.gif',
          mobile_image: '',
          title: 'Character Frequency',
