@@ -25,7 +25,7 @@ const projectsData = {
          date: '2016',
          github_url: 'https://github.com/ChrisWiles/Slide-Puzzle',
          project_url: 'https://slider-puzzle.herokuapp.com/',
-         background: 'A sliding puzzle that consists of a frame of numbered square tiles in random order with one tile missing. The n-puzzle is a classical problem for modeling algorithms. ',
+         background: 'A sliding puzzle that consists of a frame of numbered square tiles in random order with one tile missing. The n-puzzle is a classical problem for modeling algorithms. The object of the puzzle is to place the tiles in order by making sliding moves that use the empty space. Bobby Fischer was an expert at solving the 15-Puzzle. He had been timed to be able to solve it within 25 seconds',
          tech_stack: ['React.js', 'Material-UI']
       }, {
          desktop_image: 'http://i.imgur.com/ByQkwVO.jpg',
