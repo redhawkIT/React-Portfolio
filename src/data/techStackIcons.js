@@ -10,7 +10,13 @@ const iconsData = {
    neo4j: 'https://avatars3.githubusercontent.com/u/218965?v=3&s=200',
    'd3.js': 'https://upload.wikimedia.org/wikipedia/en/thumb/1/15/Logo_D3.svg/1079px-Logo_D3.svg.png',
    Leaflet: 'http://leafletjs.com/docs/images/logo.png',
-   Redux: 'https://rawgit.com/gorangajic/react-icons/master/react-icons.svg'
+   Redux: 'https://rawgit.com/gorangajic/react-icons/master/react-icons.svg',
+   Bootstrap: 'http://i.imgur.com/Rjt322i.jpg',
+   Mongoose: 'https://www.durrell.org/library/files/narrow-striped-mongoose-ark-icon.png',
+   jQuery: 'http://bishwm.me/images/jquery.png',
+   HTML: 'https://www.w3.org/html/logo/downloads/HTML5_Logo_512.png',
+   'HTML5-Canvas': 'https://www.w3.org/html/logo/downloads/HTML5_Logo_512.png'
+
 }
 
 export {iconsData}
