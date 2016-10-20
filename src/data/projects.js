@@ -21,10 +21,10 @@ const projectsData = {
       }, {
          desktop_image: 'http://i.imgur.com/DqvDcp9.gif',
          mobile_image: '',
-         title: 'N-Puzzle',
+         title: 'Slider-Puzzle',
          date: '2016',
-         github_url: 'https://github.com/ChrisWiles/N-Puzzle',
-         project_url: 'https://github.com/ChrisWiles/N-Puzzle',
+         github_url: 'https://github.com/ChrisWiles/Slide-Puzzle',
+         project_url: 'https://slider-puzzle.herokuapp.com/',
          background: 'A sliding puzzle that consists of a frame of numbered square tiles in random order with one tile missing. The n-puzzle is a classical problem for modeling algorithms. ',
          tech_stack: ['React.js', 'Material-UI']
       }, {
