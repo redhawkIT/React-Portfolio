@@ -19,7 +19,7 @@ const projectsData = {
             'express'
          ]
       }, {
-         desktop_image: 'http://i.imgur.com/DqvDcp9.gif',
+         desktop_image: 'http://i.imgur.com/MX6DzQ1.gif',
          mobile_image: '',
          title: 'Slider-Puzzle',
          date: '2016',
