@@ -14,9 +14,11 @@ const iconsData = {
    Bootstrap: 'http://i.imgur.com/Rjt322i.jpg',
    Mongoose: 'https://www.durrell.org/library/files/narrow-striped-mongoose-ark-icon.png',
    jQuery: 'http://bishwm.me/images/jquery.png',
+   'Material-UI': 'https://cdn-images-1.medium.com/max/800/1*DTZk1_3ih9F4rGkayz7wxg.png',
+   'React Router': 'https://cdn.codementor.io/assets/courses/category/online-reactjs-training-course-live-9e463f3500c7077c9300d33e6cde2adc.png',
    HTML: 'https://www.w3.org/html/logo/downloads/HTML5_Logo_512.png',
-   'HTML5-Canvas': 'https://www.w3.org/html/logo/downloads/HTML5_Logo_512.png'
-
+   'HTML5-Canvas': 'https://www.w3.org/html/logo/downloads/HTML5_Logo_512.png',
+   JavaScript: 'https://camo.githubusercontent.com/eb464a60a4a47f8b600aa71bfbc6aff3fe5c5392/68747470733a2f2f7261772e6769746875622e636f6d2f766f6f646f6f74696b69676f642f6c6f676f2e6a732f6d61737465722f6a732e706e67'
 }
 
 export {iconsData}
